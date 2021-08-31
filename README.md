@@ -30,6 +30,7 @@ DFCX_TelephonyIntegration - Google Drive for 4k/HD videos
 (Please contact me at shivaprasad.mohanrao@gmail.com for access)
 Also please use the github link for low resolution videos:(sorry for the quality of videos)
 https://github.com/shivaprasadmohanrao/dfcx_telephony_integration/tree/main/src/main/resources/CoVoiceBot-DemoVideos
-
+The logs from my local for the above use cases and demo can be found here:
+https://github.com/shivaprasadmohanrao/dfcx_telephony_integration/tree/main/src/main/logs
 
 For any other siggestions or issues please contact me on shivaprasad.mohanrao@gmail.com
