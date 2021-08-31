@@ -1,0 +1,5 @@
+My idea is to integrate Dialogflow CX into Telephony platform. 
+Here in my idea i am using Twilio as Telephony platform, where i receive a call and use Google dialogflow cx as ASR component. 
+The idea here is to get all the intent a user says in IVR application. 
+My idea is to help Indian community supporting age group of 55+ who has difficulty in using Web, or Mobile application. 
+IVR is good for senior citizen, thanks to my parents, this idea is generated seeing my parents who had this difficulty using Web or Mobile application.
