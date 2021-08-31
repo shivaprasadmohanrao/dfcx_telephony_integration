@@ -50,7 +50,7 @@ import spark.Spark;;
 
 /**
  * Start class for Twilio Telephony integration to Google DialogFlow CX 
- * @author Shivaprasad Mohanrao
+ * @author Shivaprasad Mohanrao - CoVoice Bot 
  * Idea here is to show that we can do an integration of Google DialogFlow CX API exposed Through DetectIntentStream for audio content/voice content from human
  * with Telephony/IVR platform, here am using Twilio platform.
  * 
@@ -632,3 +632,4 @@ public class TelephonyStart {
 	}
 
 }
+//End of - CoVoice Bot 
