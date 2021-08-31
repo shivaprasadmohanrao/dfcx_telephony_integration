@@ -20,7 +20,7 @@ import com.google.cloud.dialogflow.cx.v3beta1.StreamingDetectIntentResponse;
 import com.google.protobuf.ByteString;
 
 /**
-* @author Shivaprasad Mohanrao
+* @author Shivaprasad Mohanrao - CoVoice Bot 
 */
 //@Component
 public class DetectIntentTelephony {
