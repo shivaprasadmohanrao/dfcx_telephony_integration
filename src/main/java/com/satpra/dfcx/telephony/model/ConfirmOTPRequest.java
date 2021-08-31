@@ -3,7 +3,7 @@ package com.satpra.dfcx.telephony.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * @author Shivaprasad Mohanrao
+ * @author Shivaprasad Mohanrao - CoVoice Bot 
 */
 public class ConfirmOTPRequest {
 	
