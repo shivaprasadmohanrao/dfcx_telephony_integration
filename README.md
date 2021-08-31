@@ -26,7 +26,7 @@ This will allow your localhost web app running on port 4567 to be exposed to out
 I am posting/uploading demo videos that i have recorded during my testing of this bot app.
 DFCX_TelephonyIntegration - Google Drive for 4k/HD videos
 (Please contact me at shivaprasad.mohanrao@gmail.com for access)
-Also please use the github link for low resolution videos:(sorry for the qulaity of videos)
+Also please use the github link for low resolution videos:(sorry for the quality of videos)
 https://github.com/shivaprasadmohanrao/dfcx_telephony_integration/tree/main/src/main/resources/CoVoiceBot-DemoVideos
 
 
