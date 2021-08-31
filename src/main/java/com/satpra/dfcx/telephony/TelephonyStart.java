@@ -50,7 +50,7 @@ import spark.Spark;;
 
 /**
  * Start class for Twilio Telephony integration to Google DialogFlow CX 
- * @author Shivaprasad User
+ * @author Shivaprasad Mohanrao
  * Idea here is to show that we can do an integration of Google DialogFlow CX API exposed Through DetectIntentStream for audio content/voice content from human
  * with Telephony/IVR platform, here am using Twilio platform.
  * 
@@ -62,16 +62,52 @@ import spark.Spark;;
  * 
  * Twilio gets the telephone call from PSTN/VOIP and triggers a webhook to this application.
  * This app builds voice based application, to collect speech input, dtmf input.
- * 
+ * === API's Used:
+	* 1. COWIN Portal - India Govt
+	* 2. Google DialogFlow CX - DetectIntentStream
+	* 3. WhatsApp API - Sending WhatsApp messages
+	* 4. Twilio SDK - Voice Control ===
+ * === CoVoice Capabilities :
+	* 1. Receive call
+	* 2. Play Prompt
+	* 3. Gather user utterance - Voice input, DTMF input
+	* 4. Multi Channel - Telephony and Whatsapp(SMS)
+	* 5. Multi Lingual - English and Hindi Supported
+	* 6. Rich Media data exchange, PDF, JPEG, DeepLink etc ===
+ * === Other Specialities of this bot :
+ 	* 1. Multi Lingual - adding new languages is very simple on DialogFlow CX
+	* 2. Multi Channel Support - WhatsApp, Telephone, SMS, Email, Deeplink, push notification, two way SMS etc
+	* 3. Multi media support - image, pdf, url's, location, contact etc
+	* 4. Mixed language support is also supported - accidently i found this working without any issue wrt Google DialogFlow CX ===
+
  * This app also shows how we can use multi channel to do self service like sending messages to WhatsApp, send images, PDF's, DeepLink URL and other media resources very easily.
- * 
+ *  === Google API integration is called from line number 167 DetectIntentStream ===
+ *  === After Intent detection logic: call deflection ===
+		Here based on user intent other than "Certificate DownLoad" Intent, I am only detecting the input, support with step by step solution by detecting the 
+		call to other cahnnel like web, whatsapp etc.
+		1. First collect the intent
+		2. set message & media file(pdf)
+		3. Send WhatsApp message including Emoji's, rich content, URL, with CoVoiceBot logo -> jpeg file
+		4. Send Intent specific message on Whatsapp 
+		5. Send Intent specific PDF, step by step instruction or url
+		6. Thank you note on voice/telephony call and thank you logo on WhatsApp
+		
+		This shows the rich multi langual, multi media , multi channel support using Google DialogFlow X, Telephony platform, MEssaging channel.
+    === After Intent detection logic: call deflection ===
  * 
  */
 public class TelephonyStart {
 	
 	//ngrok url: To expose the localhost over the internet/http, for twilio/telephony platform to webhook this paplication
-	//STEP1 : Change this URL to your local ngrok url as per your host machine
-	static String ngrok_url = "http://57b6-2401-4900-502b-523d-c845-c90d-b7a8-e87c.ngrok.io/";
+	//STEP1: You need to set GOOGLE CLOUD CREDENTIALS json file set in as ENVIRONMENT VAR
+	//STEP2: Get TWILIO Account, and join Whatsapp sandbox
+	//STEP3: CHANGE THIS TO YOUR TWILIO ACCOUNT DETAILS on line number 226 & 227
+		//String ACCOUNT_SID = "A****40e7fc899fc50296d5f922731***e"; //Twilio Account - Account SID
+		//String AUTH_TOKEN = "5*****4996eda59b99337d67a854****c";//Twilio Account - Auth Token
+	//STEP4: Set Webhook URL in Twilio Account to redirect the call to this aaplication
+	//STEP5 : Change this URL to your local ngrok url as per your host machine
+	//for any issues in setting up please refer the README (https://github.com/shivaprasadmohanrao/dfcx_telephony_integration) or WIKI 
+	static String ngrok_url = "http://****-****-4900-502b-523d-c845-c90d-b7a8-e87c.ngrok.io/";
 	static VoiceResponse twiml = null;//for generating twiml(twilio xml) for voice dialog control
 	static RestTemplate restTemplate = new RestTemplate();
 	static String languageSelected = "";//user selected Language
@@ -218,9 +254,9 @@ public class TelephonyStart {
 			Map<String, String> map = asMap(req.body(), "UTF-8");
 			System.out.println("Inside Thank You ======= " + map.get("Digits"));
 			userPhoneNumber = map.get("Digits");
-			//STEP 2: CHANGE THIS TO YOUR TWILIO ACCOUNT DETAILS
-			String ACCOUNT_SID = "AC84040e7fc899fc50296d5f922731a64e"; //Twilio Account - Account SID
-			String AUTH_TOKEN = "56fe2a4996eda59b99337d67a85443bc";//Twilio Account - Auth TOken
+			//STEP 4: CHANGE THIS TO YOUR TWILIO ACCOUNT DETAILS
+			String ACCOUNT_SID = "A****40e7fc899fc50296d5f922731***e"; //Twilio Account - Account SID
+			String AUTH_TOKEN = "5*****4996eda59b99337d67a854****c";//Twilio Account - Auth Token
 			Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 			String message = "";
 			if("helpline".equalsIgnoreCase(userLastIntent)) {
@@ -535,7 +571,7 @@ public class TelephonyStart {
 	}
 	// END
 	
-	//TODO - change the audio file path save location 
+	// - change the audio file path save location 
 	//The audio content recorded from user are saved using this utility method in wav format
 	public static void saveAudioFile(String recordingUrl) {
 		System.out.println("saveAudioFile started");
@@ -558,7 +594,7 @@ public class TelephonyStart {
 		}
 		System.out.println("saveAudioFile done");
 	}
-	//TODO - change the audio file save path
+	// - change the audio file save path
 	//Utility method to convert audio file as per DetectIntentStream api requirements.
 	private static String convertFile() {
 		System.out.println("convertFile started");
