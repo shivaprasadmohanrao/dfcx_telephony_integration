@@ -1,0 +1,186 @@
+detectIntentStream after audio processing
+Entering inner try block
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207"
+stability: 0.01
+speech_end_offset {
+  nanos: 240000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260"
+stability: 0.01
+speech_end_offset {
+  nanos: 660000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260"
+stability: 0.01
+speech_end_offset {
+  nanos: 810000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\253\340\244\260\340\245\215\340\244\270\340\245\215\340\244\237"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 110000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\242\340\244\274\340\244\276 \340\244\270\340\244\225\340\244\244\340\245\200"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 200000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 \340\244\271\340\245\210 36"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 260000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 530000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate The"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 740000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate of"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 800000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate of"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 830000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 890000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 950000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 100000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 280000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 430000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 520000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 580000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\256\340\245\201\340\244\235\340\245\207 \340\244\252\340\244\260 certificate \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+is_final: true
+confidence: 0.9410717
+speech_end_offset {
+  seconds: 2
+  nanos: 940000000
+}
+10: "hi-in"
+
+Temp 
+Play Prompt : text: "\340\244\234\340\244\274\340\244\260\340\245\202\340\244\260, \340\244\256\340\245\210\340\244\202 \340\244\206\340\244\252\340\244\225\340\244\276 \340\244\265\340\245\210\340\244\225\340\245\215\340\244\270\340\245\200\340\244\250 \340\244\252\340\245\215\340\244\260\340\244\256\340\244\276\340\244\243\340\244\252\340\244\244\340\245\215\340\244\260 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\245\207 \340\244\256\340\245\207\340\244\202 \340\244\206\340\244\252\340\244\225\340\245\200 \340\244\256\340\244\246\340\244\246 \340\244\225\340\244\260 \340\244\270\340\244\225\340\244\244\340\245\200 \340\244\271\340\245\202\340\244\201."
+
+playPromptString=ज़रूर, मैं आपका वैक्सीन प्रमाणपत्र डाउनलोड करने में आपकी मदद कर सकती हूँ.
+Detected Intent:downloadcertificate
+User's Intent Recognized from Google dialogFlow CX as ===== downloadcertificate
+4. In generate-otp, User Mobile Number Collected ======= 9*****1
+4.a.Inside GenerateOTP API Call :: User Mobile Number == 9*****1
+trxnId = 15cee00b-4d32-4f7e-b7da-27dca8bf41fa
+5.In validate-otp, OTP Collected as:  ======= 79***2
+5.a. Inside ValidateOTP API Call:
+otpToken = eyJhbGciOiJIUzI*****iLCJtb2JpbGVfbnVtYmVyIjo5MTEzNjY5NzQxLCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjY4ODk3OTEwOTU1NjAwLCJ0eG5JZCI6IjE1Y2VlMDBiLTRkMzItNGY3ZS1iN2RhLTI3ZGNhOGJmNDFmYSIsImlhdCI6MTYzMDM1MTU5NywiZXhwIjoxNjMwMzUyNDk3fQ.24-1sfnipA3pCP-kfvAch2ksKysUIakRyWWumUff1zY
+6. In Download Certificate, Beneficiary Id collected as: ======= 68***791****0
+6.a. Inside DownloadCertificate :: Bearer token == eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiIxYTY4NDZkOC00YTM0LTRkMGItYWIyMi04YTM1MzJkNjgyNjMiLCJ1c2VyX3R5cGUiOiJCRU5FRklDSUFSWSIsInVzZXJfaWQiOiIxYTY4NDZkOC00YTM0LTRkMGItYWIyMi04YTM1MzJkNjgyNjMiLCJtb2JpbGVfbnVtYmVyIjo5MTEzNjY5NzQxLCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjY4ODk3OTEwOTU1NjAwLCJ0eG5JZCI6IjE1Y2VlMDBiLTRkMzItNGY3ZS1iN2RhLTI3ZGNhOGJmNDFmYSIsImlhdCI6MTYzMDM1MTU5NywiZXhwIjoxNjMwMzUyNDk3fQ.24-1sfnipA3pCP-kfvAch2ksKysUIakRyWWumUff1zY
+COWIN URL Formed == https://cdn-api.co-vin.in/api/v2/registration/certificate/public/download?beneficiary_reference_id=68***791****0
+Certificate File Copy Started..
+Certificate SRC file: /Users/pritisharma/eclipse-workspace/dfcx_telephony_integration/Cert_68897910955600.pdf
+Certificate DEST file: /Users/pritisharma/eclipse-workspace/dfcx_telephony_integration/target/classes/static/Cert_68***791****0.pdf
+Certificate File copied? true
+Certificate File Copy Completed..
+Certificate SRC file deleted? false
+1.Preparing whatsapp messages
+3 Preparing whatsapp messages
+7. User Interaction ended with CoVoice Bot now.
