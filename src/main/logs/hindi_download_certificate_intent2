@@ -1,0 +1,160 @@
+1. Voice Bot Interaction Started.
+2. User LanguageSelection in DTMF ======= 2
+3. Audio Recording for caller Intent.
+Recording URL ======= https://api.twilio.com/2010-04-01/Accounts/AC82f717675b33205ad847cc031a428e25/Recordings/RE76950a82607911e867eb4d1f8e5d07e7
+saveAudioFile started
+saveAudioFile done
+convertFile started
+convertFile completed
+detectIntentStream after audio processing
+Entering inner try block
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262"
+stability: 0.01
+speech_end_offset {
+  nanos: 960000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\244\340\245\200"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 350000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\244\340\245\215\340\244\257"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 410000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\266\340\244\225\340\245\215\340\244\244\340\244\277\340\244\252\340\245\200\340\244\240"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 530000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237"
+stability: 0.01
+speech_end_offset {
+  seconds: 1
+  nanos: 620000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 40000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 190000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 280000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 400000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 550000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 610000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+stability: 0.01
+speech_end_offset {
+  seconds: 2
+  nanos: 970000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+stability: 0.9
+speech_end_offset {
+  seconds: 3
+  nanos: 120000000
+}
+10: "hi-in"
+
+Temp message_type: TRANSCRIPT
+transcript: "\340\244\253\340\244\276\340\244\207\340\244\250\340\244\262 \340\244\270\340\244\260\340\245\215\340\244\237\340\244\277\340\244\253\340\244\277\340\244\225\340\245\207\340\244\237 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\244\276 \340\244\271\340\245\210"
+is_final: true
+confidence: 0.9580452
+speech_end_offset {
+  seconds: 6
+  nanos: 780000000
+}
+10: "hi-in"
+
+Temp 
+Play Prompt : text: "\340\244\234\340\244\274\340\244\260\340\245\202\340\244\260, \340\244\256\340\245\210\340\244\202 \340\244\206\340\244\252\340\244\225\340\244\276 \340\244\265\340\245\210\340\244\225\340\245\215\340\244\270\340\245\200\340\244\250 \340\244\252\340\245\215\340\244\260\340\244\256\340\244\276\340\244\243\340\244\252\340\244\244\340\245\215\340\244\260 \340\244\241\340\244\276\340\244\211\340\244\250\340\244\262\340\245\213\340\244\241 \340\244\225\340\244\260\340\244\250\340\245\207 \340\244\256\340\245\207\340\244\202 \340\244\206\340\244\252\340\244\225\340\245\200 \340\244\256\340\244\246\340\244\246 \340\244\225\340\244\260 \340\244\270\340\244\225\340\244\244\340\245\200 \340\244\271\340\245\202\340\244\201."
+
+playPromptString=ज़रूर, मैं आपका वैक्सीन प्रमाणपत्र डाउनलोड करने में आपकी मदद कर सकती हूँ.
+Detected Intent:downloadcertificate
+User's Intent Recognized from Google dialogFlow CX as ===== downloadcertificate
+4. In generate-otp, User Mobile Number Collected ======= 9***1
+4.a.Inside GenerateOTP API Call :: User Mobile Number == 9***1
+trxnId = afeb5bbc-cfcf-4b9f-ae0d-a1d5b1927f56
+5.In validate-otp, OTP Collected as:  ======= 7***7
+5.a. Inside ValidateOTP API Call:
+otpToken = eyJhbGciOiJIUzI1NiIsIn***jgyNjMiLCJtb2JpbGVfbnVtYmVyIjo5MTEzNjY5NzQxLCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjY4ODk3OTEwOTU1NjAwLCJ0eG5JZCI6ImFmZWI1YmJjLWNmY2YtNGI5Zi1hZTBkLWExZDViMTkyN2Y1NiIsImlhdCI6MTYzMDM1MjIxMiwiZXhwIjoxNjMwMzUzMTEyfQ.k0M3Ivi1FfScvSCh0o811Cp7hx8Tu9BxBzHx0lzfOpE
+6. In Download Certificate, Beneficiary Id collected as: ======= 6889***f600
+6.a. Inside DownloadCertificate :: Bearer token == eyJhbGciOiJIUzI1NiIsInR5cCI6Ik***hdCI6MTYzMDM1MjIxMiwiZXhwIjoxNjMwMzUzMTEyfQ.k0M3Ivi1FfScvSCh0o811Cp7hx8Tu9BxBzHx0lzfOpE
+COWIN URL Formed == https://cdn-api.co-vin.in/api/v2/registration/certificate/public/download?beneficiary_reference_id=6889***f600
+Certificate File Copy Started..
+Certificate SRC file: /Users/****/eclipse-workspace/dfcx_telephony_integration/Cert_68897910955600.pdf
+Certificate DEST file: /Users/****/eclipse-workspace/dfcx_telephony_integration/target/classes/static/Cert_68*****f600.pdf
+Certificate File copied? true
+Certificate File Copy Completed..
+Certificate SRC file deleted? false
+1.Preparing whatsapp messages
+3 Preparing whatsapp messages
+7. User Interaction ended with CoVoice Bot now.
