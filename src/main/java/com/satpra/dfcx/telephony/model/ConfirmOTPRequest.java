@@ -2,7 +2,9 @@ package com.satpra.dfcx.telephony.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-
+/**
+ * @author Shivaprasad Mohanrao
+*/
 public class ConfirmOTPRequest {
 	
 	@JsonProperty
