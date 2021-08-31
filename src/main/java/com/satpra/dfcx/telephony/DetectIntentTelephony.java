@@ -22,11 +22,8 @@ import com.google.protobuf.ByteString;
 //@Component
 public class DetectIntentTelephony {
 
-	// Add GOOGLE_APPLICATION_CREDENTIALS=/Users/pritisharma/Downloads/priti-service.json in environment while running this
 	public static void main(String[] args) throws Exception{
-		//System.setProperty("GOOGLE_APPLICATION_CREDENTIALS", "/Users/pritisharma/Downloads/service-account-file.json");
 
-		//String audioPath = "/Users/pritisharma/Downloads/twilioRecordings/twilioconverted.wav";
 		//long start = System.currentTimeMillis();
 //		detectIntentStream("civil-cascade-320214", "us-central1", "df9a41ec-53b3-4bef-b417-1759c96320cb", "txt123", audioPath, "hi-IN");
 		//detectIntentStream("civil-cascade-320214","asia-south1","b02a5075-fc4a-492f-a994-f28f66b85555", "txt123", audioPath);

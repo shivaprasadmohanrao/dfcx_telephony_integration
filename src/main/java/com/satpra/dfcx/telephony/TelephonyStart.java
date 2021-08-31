@@ -543,8 +543,8 @@ public class TelephonyStart {
 		try {
 			conn = new URL(recordingUrl).openConnection();
 			InputStream is = conn.getInputStream();
-
-			OutputStream outstream = new FileOutputStream(new File("/Users/pritisharma/Downloads/twilioRecordings/twilio.wav"));
+			//Change this to local path to save audio recordings before conversion
+			OutputStream outstream = new FileOutputStream(new File("/Users/****/Downloads/twilioRecordings/twilio.wav"));
 			byte[] buffer = new byte[4096];
 			int len;
 			while ((len = is.read(buffer)) > 0) {
@@ -563,9 +563,9 @@ public class TelephonyStart {
 	private static String convertFile() {
 		System.out.println("convertFile started");
 		AudioInputStream stream;
-		File file = new File("/Users/pritisharma/Downloads/twilioRecordings/twilioconverted.wav");
+		File file = new File("/Users/*****/Downloads/twilioRecordings/twilioconverted.wav");
 		try {
-			stream = AudioSystem.getAudioInputStream(new File("/Users/pritisharma/Downloads/twilioRecordings/twilio.wav"));
+			stream = AudioSystem.getAudioInputStream(new File("/Users/****/Downloads/twilioRecordings/twilio.wav"));
 			AudioFormat sourceFormat = stream.getFormat();
 			AudioFormat targetFormat = new AudioFormat(sourceFormat.getEncoding(),16000,
 					sourceFormat.getSampleSizeInBits(),sourceFormat.getChannels(),
