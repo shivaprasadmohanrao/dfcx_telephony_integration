@@ -19,24 +19,20 @@ import com.google.cloud.dialogflow.cx.v3beta1.StreamingDetectIntentRequest;
 import com.google.cloud.dialogflow.cx.v3beta1.StreamingDetectIntentResponse;
 import com.google.protobuf.ByteString;
 
+/**
+* @author Shivaprasad Mohanrao
+*/
 //@Component
 public class DetectIntentTelephony {
 
 	public static void main(String[] args) throws Exception{
 
-		//long start = System.currentTimeMillis();
-//		detectIntentStream("civil-cascade-320214", "us-central1", "df9a41ec-53b3-4bef-b417-1759c96320cb", "txt123", audioPath, "hi-IN");
-		//detectIntentStream("civil-cascade-320214","asia-south1","b02a5075-fc4a-492f-a994-f28f66b85555", "txt123", audioPath);
-		//long end = System.currentTimeMillis();
-		//long x = (end - start)/1000;
-		//long  y = x/60;
-		//System.out.println("Total Time of DetectIntent Sservice in seconds" + x + " and in minutes " + y);
+		//testing purpose only
 	}
 
 
 
 	//DialogFlow API Detect Intent sample with audio files processes as an audio stream.
-	@SuppressWarnings("deprecation")
 	public static String[] detectIntentStream (String projectId, String locationId, String agentId, String sessionId, String audioFilePath, String language) 
 			throws ApiException, IOException {
 		//System.out.println("detectIntentStream Started, audioFilePath="+audioFilePath);
